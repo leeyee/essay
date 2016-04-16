@@ -1,3 +1,13 @@
+/*仿宋　cwTeXFangSong*//*
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+*//*黑体　cwTeXHei*//*
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexhei.css);
+*//*楷体　cwTeXKai*//*
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexkai.css);
+*//*明体　cwTeXMing*//*
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexming.css);
+*//*圆体　cwTeXYen*//*
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);*/
 * {
   box-sizing: border-box; }
 
