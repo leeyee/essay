@@ -1,33 +1,81 @@
+---
+layout: default
+---
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-    <meta charset="UTF-8">
-    <title>Essay by leeyee</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="/stylesheets/github-light.css" media="screen">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    {% seo %}
+    <title>{{page.title}}</title>
+    <!-- Bootstrap core CSS -->
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/stylesheets/blog.css" rel="stylesheet">
+    {% include analytics %}
 </head>
+
 <body>
+<div class="blog-masthead">
+    <div class="container">
+        <nav class="blog-nav">
+            <a class="blog-nav-item active" href="/">首页</a>
+            <!--<a class="blog-nav-item" href="#">New features</a>-->
+            <!--<a class="blog-nav-item" href="#">Press</a>-->
+            <!--<a class="blog-nav-item" href="#">New hires</a>-->
+            <!--<a class="blog-nav-item" href="#">About</a>-->
+        </nav>
+    </div>
+</div>
 
-<section class="page-header">
-    <h1 class="project-name">随笔</h1>
-    <h2 class="project-tagline"></h2>
-   <!-- <a href="https://github.com/leeyee/essay" class="btn">View on GitHub</a>
-    <a href="https://github.com/leeyee/essay/zipball/master" class="btn">Download .zip</a>
-    <a href="https://github.com/leeyee/essay/tarball/master" class="btn">Download .tar.gz</a>-->
-</section>
+<div class="container">
+    <div class="blog-header">
+        <h1 class="blog-title">Leeyee's Essay</h1>
+        <p class="lead blog-description">非技术类日志</p>
+    </div>
+    <div class="row">
+        {{content}}
+        <div class="col-sm-3   blog-sidebar">
+            <div class="sidebar-module sidebar-module-inset">
+                <h4>关于</h4>
+                <p>
+                    个人博客
+                </p>
+            </div>
+            <div class="sidebar-module">
+                <h4>传送门</h4>
+                <ol class="list-unstyled">
+                    <li><a href="http://iyiguo.net" target="_blank">Leeyee's Blog</a></li>
+                    <li><a href="http://blog.csdn.net/oxcow" target="_blank">CSDN Blog</a></li>
+                </ol>
+            </div>
+        </div><!-- /.blog-sidebar -->
 
-<section class="main-content">
-    {{content}}
-    <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/leeyee/essay">Essay</a> is maintained by <a
-                href="https://github.com/leeyee">leeyee</a>.</span>
-        <span class="site-footer-credits">&copy;2016 by Leeyee, All Rights Reserved</span>
-    </footer>
+    </div><!-- /.row -->
 
-</section>
+</div><!-- /.container -->
 
+<footer class="blog-footer">
+    <p>&copy;2016 by Leeyee, All Rights Reserved</p>
+    <!--<p>-->
+    <!--<a href="#">Back to top</a>-->
+    <!--</p>-->
+</footer>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<![endif]-->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
 </html>
