@@ -19,7 +19,7 @@ kramdown:
       coderay_bold_every:        10
       coderay_css:               style
 
-permalink: /essay/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 
 url: http://iyiguo.net
 
