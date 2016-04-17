@@ -5,17 +5,18 @@ layout: default
 
     <div class="blog-post">
         <h2 class="blog-post-title">{{page.title}}</h2>
-        <p class="blog-post-meta">{{page.date |date:"%Y年%m月%d日"}} by Leeyee </p>
+        <p class="blog-post-meta">
+            <span class="glyphicon glyphicon-calendar"/>{{page.date |date:"%Y年%m月%d日"}} by {{site.author}}
+            <span class="glyphicon glyphicon-folder-close"/>{{page.category}}
+        </p>
         {{content}}
     </div><!-- /.blog-post -->
-
     <nav>
         <ul class="pager">
             <li><a href="{{ page.previous.url }}">{{ page.previous.title }}　&lt;&lt;</a></li>
             <li><a href="{{ page.next.url }}">&gt;&gt; {{ page.next.title }}</a></li>
         </ul>
     </nav>
-
     <div>{% include comments %}</div>
 </div><!-- /.blog-main -->
 
