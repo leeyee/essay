@@ -2,7 +2,7 @@
 layout: post
 title: 迁移第一篇
 description: 新建非技术博客后的第一篇
-tag:
+tag: 
 ---
 
 　
