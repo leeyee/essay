@@ -21,7 +21,7 @@ kramdown:
 
 permalink: /:year/:month/:day/:title
 
-url: http://iyiguo.net
+#url: http://iyiguo.net/essay
 
 #分析
 analytics:
