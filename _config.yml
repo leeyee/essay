@@ -19,4 +19,4 @@ kramdown:
       coderay_bold_every:        10
       coderay_css:               style
 
-permalink: /:year/:month/:day/:title
+permalink: /essay/:year/:month/:day/:title
