@@ -13,8 +13,8 @@ layout: default
     </div><!-- /.blog-post -->
     <nav>
         <ul class="pager">
-            <li><a href="{{ page.previous.url }}">{{ page.previous.title }}　&lt;&lt;</a></li>
-            <li><a href="{{ page.next.url }}">&gt;&gt; {{ page.next.title }}</a></li>
+            <li><a href="{{site.url}}{{ page.previous.url }}">{{ page.previous.title }}　&lt;&lt;</a></li>
+            <li><a href="{{site.url}}{{ page.next.url }}">&gt;&gt; {{ page.next.title }}</a></li>
         </ul>
     </nav>
     <div>{% include comments %}</div>
