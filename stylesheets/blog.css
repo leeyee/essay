@@ -3,8 +3,9 @@
  */
 
 body {
-    font-family: Georgia, "Times New Roman", Times, serif;
+    font-family: 'Hiragino Sans GB', 'Microsoft Yahei', serif;
     color: #555;
+    background-color: #f6fdff
 }
 
 h1, .h1,
@@ -19,22 +20,20 @@ h6, .h6 {
     color: #333;
 }
 
-
 /*
  * Override Bootstrap's default container.
  */
 
-@media (min-width: 1200px) {
-    .container {
-        width: 970px;
-    }
-}
+/*@media (min-width: 1200px) {*/
+    /*.container {*/
+        /*width: 970px;*/
+    /*}*/
+/*}*/
 
 
 /*
  * Masthead for nav
  */
-
 .blog-masthead {
     background-color: #428bca;
     -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
@@ -99,8 +98,13 @@ h6, .h6 {
  */
 
 .blog-main {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.5;
+    letter-spacing: 0.1em;
+}
+
+.blog-main article{
+    text-indent: 2em;
 }
 
 /* Sidebar modules for boxing content */

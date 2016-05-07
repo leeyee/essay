@@ -3,7 +3,6 @@ layout: post
 title: 只是想说……
 description: 
 category: 日志
-tag: []
 ---
 
 本文写于二零一一年十月十七日，最初发布在[QZONE空间](http://user.qzone.qq.com/289828650/blog/1318823988)里。当时刚从上海来到北京一年！

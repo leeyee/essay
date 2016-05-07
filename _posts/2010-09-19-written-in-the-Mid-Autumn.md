@@ -3,7 +3,6 @@ layout: post
 title: 写在中秋
 description:
 category: 日志
-tag: []
 ---
 
 其实对中秋没太多的感情，也许我这人就是这么没心没肺。只是在外漂的时间长了，才会在这个节日有那么点感觉。

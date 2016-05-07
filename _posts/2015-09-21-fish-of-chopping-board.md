@@ -3,7 +3,6 @@ layout: post
 title: 生活案板上的那条鱼
 description: 生活案板上的那条鱼
 category: 日志
-tag:
 ---
 
 有些时候很想来一场说走就走的旅行。可是不知为什么总在要在启动的那一刻被取消了！

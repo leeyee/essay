@@ -12,9 +12,9 @@ layout: default
     {% feed_meta %}
     <title>{{page.title}}</title>
     <!-- Bootstrap core CSS -->
-    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="{{site.url}}/stylesheets/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="/stylesheets/blog.css" rel="stylesheet">
+    <link href="{{site.url}}/stylesheets/blog.css" rel="stylesheet">
     {% include analytics %}
 </head>
 
@@ -22,12 +22,8 @@ layout: default
 <div class="blog-masthead">
     <div class="container">
         <nav class="blog-nav">
-            <a class="blog-nav-item active" href="{{site.url}}">首页</a>
+            <a class="blog-nav-item active" href="{{site.url}}/">首页</a>
             <a class="blog-nav-item" href="{{site.url}}/feed.xml">RSS本站</a>
-            <!--<a class="blog-nav-item" href="#">New features</a>-->
-            <!--<a class="blog-nav-item" href="#">Press</a>-->
-            <!--<a class="blog-nav-item" href="#">New hires</a>-->
-            <!--<a class="blog-nav-item" href="#">About</a>-->
         </nav>
     </div>
 </div>
