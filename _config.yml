@@ -19,10 +19,10 @@ kramdown:
       coderay_bold_every:        10
       coderay_css:               style
 
-permalink: /:year/:month/:day/:title/
+permalink: /essay/:year/:month/:day/:title/
 
 name: Leeyee's Essay
-url: http://iyiguo.net/essay
+url: http://iyiguo.net
 description: 我的日记、杂谈、流水等非技术类文章
 author: leeyee
 
