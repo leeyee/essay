@@ -10,13 +10,15 @@ layout: default
             {% endfor %}
         </ol>
     </div>
-    <!--{% for post in site.posts %}-->
-    <!--<div class="panel panel-info">-->
-        <!--<div class="panel-heading">-->
-            <!--<h1 class="panel-title">{{post.title}}</h1>-->
-        <!--</div>-->
-        <!--<div class="panel-body">{{post.content |strip_html| truncate: 200 }}</div>-->
-    <!--</div>-->
-    <!--{% endfor %}-->
+{% comment %} 
+    {% for post in site.posts %}
+    <div class="panel panel-info">
+        <div class="panel-heading">
+            <h1 class="panel-title">{{post.title}}</h1>
+        </div>
+        <div class="panel-body">{{post.content |strip_html| truncate: 200 }}</div>
+    </div>
+    {% endfor %}
+{% endcomment %}
 </div><!-- /.blog-main -->
 　
