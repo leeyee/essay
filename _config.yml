@@ -38,7 +38,7 @@ comments:
   disqus:
     short_name: oxcow
 
-gems:
+plugins:
 - jekyll-mentions
 - jekyll-sitemap
 - jekyll-feed
