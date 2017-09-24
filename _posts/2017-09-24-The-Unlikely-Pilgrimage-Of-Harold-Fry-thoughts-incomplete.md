@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 一个人的朝圣-读后感（残）
+date: 2017-09-24 10 +0800
 description:  
 category: 日志
 ---
